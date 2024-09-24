@@ -180,9 +180,9 @@ console.log(myLinkedList);
 
 // console.log(myLinkedList.get(1));
 // console.log(myLinkedList.set(2, 20));
-myLinkedList.insert(1, 10)
+// myLinkedList.insert(1, 10)
 // console.log(myLinkedList.size());
-console.log(myLinkedList.clear());
+// console.log(myLinkedList.clear());
  
 // console.log(myLinkedList);
 
