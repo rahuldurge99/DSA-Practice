@@ -22,6 +22,7 @@ class LinkedList {
         this.tail.next = newNode;
         this.tail = newNode
         this.length++;
+        return this;
     }
  
     pop() {
