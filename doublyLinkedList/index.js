@@ -90,6 +90,6 @@ myDoublyLinkedList.push(2)
 myDoublyLinkedList.push(3)
 myDoublyLinkedList.push(4)
 myDoublyLinkedList.pop()
-// myDoublyLinkedList.unshift(0)
+myDoublyLinkedList.unshift(0)
 myDoublyLinkedList.shift()
 console.log(myDoublyLinkedList);
