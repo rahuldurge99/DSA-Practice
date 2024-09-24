@@ -39,6 +39,8 @@ class Stack {
         this.length--
         return this;
     }
+
+    
 }
 
 let stackValue = new Stack(1)
