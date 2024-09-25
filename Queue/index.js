@@ -8,9 +8,9 @@ class Node{
 
 class Queue{
     constructor(value){ 
-        this.first = new Node(value) ;
-       
-        this.last = this.first ;
+        const newNode =  new Node(value)
+        this.first = newNode ;
+        this.last = newNode ;
         this.length = 1 ;
     }
 
@@ -49,4 +49,5 @@ let addingEle = new Queue(0)
 addingEle.enqueue(1)
 addingEle.enqueue(2)
 addingEle.dequeue()
+addingEle.enqueue(2)
 console.log(addingEle);
